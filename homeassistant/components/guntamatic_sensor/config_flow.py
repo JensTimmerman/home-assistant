@@ -32,7 +32,7 @@ async def validate_input(hass: HomeAssistant, data: dict[str, Any]) -> dict[str,
     """
     heater = Heater(data[CONF_HOST])
 
-    if not await heater.get_data():
+    if not await hass.async_add_executor_job(heater.get_data):
         raise CannotConnect
 
     # Return info that you want to store in the config entry.
