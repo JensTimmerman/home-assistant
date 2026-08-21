@@ -81,6 +81,8 @@ async def test_device_diagnostics_heating_circuit(
     )
 
     assert set(diagnostics["data"]) == {
+        "room_1_temperature",
+        "circuit_1_temp",
         "heating_circulation_pump_1",
         "heating_circulation_program_1",
     }
