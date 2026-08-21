@@ -14,6 +14,18 @@
         '22',
         '%',
       ]),
+      'circuit_1_temp': list([
+        '55.00',
+        '°C',
+      ]),
+      'extra_dhw_1_temperature': list([
+        '52.10',
+        '°C',
+      ]),
+      'extra_dhw_boost_0': list([
+        'auto',
+        '',
+      ]),
       'heating_circulation_program_1': list([
         'heat',
         '',
@@ -21,6 +33,14 @@
       'heating_circulation_pump_1': list([
         'auto',
         '',
+      ]),
+      'interruption_1': list([
+        '',
+        '',
+      ]),
+      'operating_time': list([
+        '1188',
+        'h',
       ]),
       'outdoor_temperature': list([
         '15.95',
@@ -30,9 +50,17 @@
         'heat',
         '',
       ]),
+      'room_1_temperature': list([
+        '21.50',
+        '°C',
+      ]),
       'serial': list([
         '959103',
         '',
+      ]),
+      'service_days': list([
+        '2012',
+        'd',
       ]),
       'status': list([
         'Service Ign.',
