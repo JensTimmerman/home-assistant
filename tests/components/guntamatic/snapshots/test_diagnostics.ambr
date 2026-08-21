@@ -1,0 +1,50 @@
+# serializer version: 1
+# name: test_config_entry_diagnostics
+  dict({
+    'data': dict({
+      'auxiliary_pump_0': list([
+        'nonstop',
+        '',
+      ]),
+      'boiler_temperature': list([
+        '14.09',
+        '°C',
+      ]),
+      'buffer_load': list([
+        '22',
+        '%',
+      ]),
+      'heating_circulation_program_1': list([
+        'heat',
+        '',
+      ]),
+      'heating_circulation_pump_1': list([
+        'auto',
+        '',
+      ]),
+      'outdoor_temperature': list([
+        '15.95',
+        '°C',
+      ]),
+      'program': list([
+        'heat',
+        '',
+      ]),
+      'serial': list([
+        '959103',
+        '',
+      ]),
+      'status': list([
+        'Service Ign.',
+        '',
+      ]),
+      'version': list([
+        '32a',
+        '',
+      ]),
+    }),
+    'entry_data': dict({
+      'host': '**REDACTED**',
+    }),
+  })
+# ---
