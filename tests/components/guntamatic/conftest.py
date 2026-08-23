@@ -38,6 +38,14 @@ MOCK_PARSE_DATA = {
     "interruption_1": ["", ""],
     "extra_dhw_1_temperature": ["52.10", "°C"],
     "extra_dhw_boost_0": ["auto", ""],
+    "output": ["15", "%"],
+    "g1_target": ["32", "%"],
+    "discharge_motor": ["42", "%"],
+    "grate": ["8", "%"],
+    "ash_empty_in": ["120", "h"],
+    "buffer_t5_temperature": ["65.00", "°C"],
+    "buffer_t6_temperature": ["60.00", "°C"],
+    "buffer_t7_temperature": ["55.00", "°C"],
 }
 
 
