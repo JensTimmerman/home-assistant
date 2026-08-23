@@ -2,6 +2,10 @@
 # name: test_config_entry_diagnostics
   dict({
     'data': dict({
+      'ash_empty_in': list([
+        '120',
+        'h',
+      ]),
       'auxiliary_pump_0': list([
         'nonstop',
         '',
@@ -14,9 +18,25 @@
         '22',
         '%',
       ]),
+      'buffer_t5_temperature': list([
+        '65.00',
+        '°C',
+      ]),
+      'buffer_t6_temperature': list([
+        '60.00',
+        '°C',
+      ]),
+      'buffer_t7_temperature': list([
+        '55.00',
+        '°C',
+      ]),
       'circuit_1_temp': list([
         '55.00',
         '°C',
+      ]),
+      'discharge_motor': list([
+        '42',
+        '%',
       ]),
       'extra_dhw_1_temperature': list([
         '52.10',
@@ -25,6 +45,14 @@
       'extra_dhw_boost_0': list([
         'auto',
         '',
+      ]),
+      'g1_target': list([
+        '32',
+        '%',
+      ]),
+      'grate': list([
+        '8',
+        '%',
       ]),
       'heating_circulation_program_1': list([
         'heat',
@@ -45,6 +73,10 @@
       'outdoor_temperature': list([
         '15.95',
         '°C',
+      ]),
+      'output': list([
+        '15',
+        '%',
       ]),
       'program': list([
         'heat',
