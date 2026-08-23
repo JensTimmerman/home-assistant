@@ -36,6 +36,7 @@ MOCK_PARSE_DATA = {
     "operating_time": ["1188", "h"],
     "service_days": ["2012", "d"],
     "interruption_1": ["", ""],
+    "extra_dhw_0_temperature": ["48.30", "°C"],
     "extra_dhw_1_temperature": ["52.10", "°C"],
     "extra_dhw_boost_0": ["auto", ""],
     "output": ["15", "%"],

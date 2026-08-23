@@ -110,6 +110,9 @@
       "domestic_hot_water_2_temperature": {
         "name": "Domestic hot water circuit 2 temperature"
       },
+      "extra_dhw_0_temperature": {
+        "name": "Extra DHW 0 temperature"
+      },
       "extra_dhw_1_temperature": {
         "name": "Extra DHW 1 temperature"
       },

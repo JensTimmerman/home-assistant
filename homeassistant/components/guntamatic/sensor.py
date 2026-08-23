@@ -335,7 +335,7 @@ GUNTAMATIC_SENSORS: list[SensorEntityDescription] = [
             native_unit_of_measurement=UnitOfTemperature.CELSIUS,
             entity_registry_enabled_default=False,
         )
-        for nr in (1, 2)
+        for nr in range(3)
     ],
     *[
         SensorEntityDescription(
